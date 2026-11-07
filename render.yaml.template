@@ -1,0 +1,7 @@
+# Render deployment manifest (template)
+version: 1
+services:
+  - type: web
+    name: dreamcore-webgl
+    dockerfilePath: Dockerfile
+    startCommand: "nginx -g 'daemon off;'"
